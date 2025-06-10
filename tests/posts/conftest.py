@@ -1,13 +1,6 @@
 import pytest
 
-from django.test import Client
-
 from posts.models import Post
-
-
-@pytest.fixture
-def client():
-    return Client()
 
 
 @pytest.fixture
